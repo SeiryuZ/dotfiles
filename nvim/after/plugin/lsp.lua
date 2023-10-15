@@ -12,7 +12,6 @@ require('mason-lspconfig').setup({
 	handlers = {
 		lsp_zero.default_setup,
 		pylsp = function() 
-			print ("HELLO")
 			local lspconfig = require('lspconfig')
 			lspconfig.pylsp.setup({
 				settings = {
